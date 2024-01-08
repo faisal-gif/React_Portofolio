@@ -1,0 +1,62 @@
+#portofolio {
+    padding-top: 3rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.portofolioContainerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.portofolioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5.3px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.subTitle {
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.btnGitHub {
+    font-size: 0.8em;
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:407px) {
+    #portofolio {
+        padding-top: 3rem;
+        width: 80vw;
+        max-width: 55rem;
+    }
+
+    .heading {
+        font-size: 1.5rem;  
+    }
+    
+    
+     
+  }
+

@@ -1,0 +1,105 @@
+.portofolioCardContainer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.portofolioCard {
+  max-width: 25vw;
+  max-height: 100vh;
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 0 0 1;
+  border: 1.7px solid #61DBFB;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.portofolioCard:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+  border: 2.2px solid #61DBFB;
+}
+
+.portofolioImg {
+  border-radius: 8px;
+  width: 100%;
+  
+}
+
+.portofolioImg>img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.portofolioCardContent {
+  display: flex;
+  padding: 10px;
+
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.portofolioTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.portofolioDesc {
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-bottom: 1%;
+}
+
+.btnFrame {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.portofolioGithubButton {
+  color: rgb(40, 40, 40);
+  font-size: small;
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  
+}
+.portofolioDemoButton {
+  color: white;
+  font-size: small;
+  background: rgb(40, 40, 40);
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 2rem;
+}
+@media screen and (max-width:1024px) {
+
+  .portofolioCard {
+    max-width: 80vw;
+    max-height: 100vh;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+  
+  
+}
