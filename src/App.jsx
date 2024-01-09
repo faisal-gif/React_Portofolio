@@ -5,6 +5,7 @@ import Skill from "./assets/components/Skill";
 import Portofolio from "./assets/components/Portofolio";
 import Client  from "./assets/components/Client";
 import Contact from "./assets/components/Contact";
+import Footers from "./assets/components/Footers";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Portofolio />
     <Client />
     <Contact />
+    <Footers />
     </div>
   );
 }
